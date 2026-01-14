@@ -1,0 +1,22 @@
+cat > .gitignore <<'EOF'
+# Maven
+target/
+# Gradle
+build/
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Env
+.env
+.env.*
+
+# Logs
+*.log
+EOF
